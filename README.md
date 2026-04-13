@@ -1,20 +1,20 @@
-# 💳 Credit Card Fraud Detection
+# Credit Card Fraud Detection
 
-## 📌 About
+##  About
 A machine learning classification project that detects fraudulent credit card transactions from a highly imbalanced dataset of **284,807 transactions**. Used **under-sampling** technique to handle class imbalance and trained a Logistic Regression model achieving **93.9% accuracy**.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Language:** Python
 - **Libraries:** Pandas, NumPy, Scikit-Learn
 
-## 📊 Dataset
+##  Dataset
 - **Total Transactions:** 284,807
 - **Legitimate Transactions:** 284,315 (99.83%)
 - **Fraudulent Transactions:** 492 (0.17%)
 - **Features:** 30 (V1-V28 from PCA transformation + Time + Amount)
 - **Target:** Class (0 = Legitimate, 1 = Fraud)
 
-## 🔍 What I Did
+##  What I Did
 
 ### 1. Data Exploration
 - Analyzed distribution of legitimate vs fraudulent transactions
@@ -38,19 +38,19 @@ A machine learning classification project that detects fraudulent credit card tr
 | Training Accuracy | **94.15%** |
 | Testing Accuracy | **93.91%** |
 
-## 🏆 Key Takeaways
+##  Key Takeaways
 - Under-sampling effectively balanced the highly skewed dataset
 - Logistic Regression performed well with minimal overfitting (training ≈ testing accuracy)
 - The model can correctly identify ~94% of fraudulent transactions
 
-## 📂 Project Structure
+##  Project Structure
 ```
 ├── credit_data.csv                       # Dataset
 ├── Credit_Card_Fraud_Detection.ipynb     # Jupyter Notebook
 └── README.md                             # Project Documentation
 ```
 
-## 🚀 How to Run
+##  How to Run
 1. Clone this repository
    ```bash
    git clone https://github.com/chiragsddsdc/credit-card-fraud-detection.git
@@ -64,5 +64,5 @@ A machine learning classification project that detects fraudulent credit card tr
    jupyter notebook Credit_Card_Fraud_Detection.ipynb
    ```
 
-## 📬 Contact
+##  Contact
 - **Email:** chiragyadav2424@gmail.com
